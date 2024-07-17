@@ -17,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <Success />
+      
+      {/* <Success /> */}
     </div>
   );
 }
