@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Success } from './components/Success';
+import { Users } from './components/Users';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <Users isLoading />
       {/* <Success /> */}
     </div>
   );
